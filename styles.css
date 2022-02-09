@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: #fcde67;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #030e12;
+}
+
+header img{
+    width: 300px;
+    border-radius: 50%;
+    border: 5px black solid;
+}
+
+section article p:first-child{
+    margin-bottom: 0;
+}
+
+section article p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #030e12;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+section{
+    text-align: center;
+}
+
+section nav ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+section nav ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    letter-spacing: 3px;
+}
+
+section nav ul li a{
+    color: black;
+}
+
+footer article h2{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.musicdot, .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: opacity 0.3s linear;
+}
+
+.musicdot{
+    margin-right: 50px;
+}
+
+.musicdot img, .cards img{
+    width: 300px;
+    height: 300px;
+    border: 5px black solid;
+    transition: border 0.5s linear;
+    border-radius: 50%;
+}
+
+.musicdot img:hover, .cards img:hover{
+    border: 5px #5bccf6 solid;
+}
+
+.projects a{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #030e12;
+}
